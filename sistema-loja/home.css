@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/livros.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#imagem-principal{
+    width: 100%;
+    height: 250px;  
+}
+#comandos{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: beige;
+    padding: 20px;
+}
+.link{
+    margin: 10px 20px;
+}
+.fundo{
+    text-align: center;
+    margin: 40px 10px;
+    background-color: beige;
+    padding:40px 2px 50px;
+    margin: 1% 10%;
+}
+#final{
+    text-align: center;
+    background-color: beige;
+    margin: 300px 0px 0px 0px;
+    width: 100%;
+}
+.imagem-rede{
+    height: 50px;
+}
