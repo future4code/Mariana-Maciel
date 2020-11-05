@@ -113,7 +113,12 @@ td button {
     border-radius: 5px;
     color: black;
 }
-
+td button:active{
+    color: white;
+}
+td button:hover{
+    background-color: yellow;
+}
 .container-do-search {
     margin-top: 20px;
     height: 100px;
