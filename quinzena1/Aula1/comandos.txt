@@ -1,0 +1,29 @@
+428  cd Labenu-Muñoz/quinzena1/Aula1/assassinato-na-linha-de-comando/
+  429  ls
+  430  cat inicio
+  431  cd misterio/
+  432  ls
+  433  grep PISTA cena-do-crime
+  434  grep Annabel pessoas
+  435  cd ruas/
+  436  ls
+  437  cat Vila_Buckingham
+  438  grep ENTREVISTA Vila_Hart
+  439  cd -
+  440  ls
+  441  cd entrevistas/
+  442  ls
+  443  cat entrevista-699607
+  444  cd -
+  445  ls
+  446  grep -A 5 L337 automoveis
+  447  ls
+  448  cd associacoes/
+  449  ls
+  450  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep Jeremy Bowers
+  451  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep Jeremy
+  452  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep Joe
+  453  history
+
+
+O assassino é Jeremy Bowers!
