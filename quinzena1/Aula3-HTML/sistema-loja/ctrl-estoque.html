@@ -4,66 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="estoque.css">
     <title>Controle de Estoque</title>
 </head>
 <body>
-    <div>
-        <p>The Book Club</p>
-    </div>
+    <header>
+        <div class="caixa">
+            <h1><img src="/img/The Book CLUB.gif"></h1>
+            
+            <div id="comandos">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Página Inicial</a></li>
+                        <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+                        <li><a href="add-produto.html">Adicionar Produto</a></li>
+                        <li><a href="funcionarios.html">Funcionários</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </div> 
+    </header>
+    <main>
+        <h2 class="estoque">Controle de Estoque</h2>
+
+        <table id="tabela">
+            <tr>
+                <th class="titulo-tabela">Foto</th>
+                <th class="titulo-tabela">Descrição</th>
+                <th class="titulo-tabela">Preço(R$)</th>
+                <th class="titulo-tabela">Quantidade disponível</th>
+            </tr>
+
+            <tr>
+                <td><img class="imagens" src="\img\acotar.jpg" alt="Imagem box de livro série A Corte de Espinhos e Rosas"/></td>
+                <td>Box Série A Corte de Espinhos e Rosas - Sarah J. Maas</td>
+                <td>R$285,00</td>
+                <td>5 unidades</td>
+            </tr>
+
+            <tr>
+                <td><img class="imagens" src="\img\trono-de-vidro.jpg" alt="Imagem box de livros série Trono de Vidro"/></td>
+                <td> Box Série Trono de Vidro - Sarah J. Maas </td>
+                <td> R$499,00 </td>
+                <td> 8 unidades </td>
+            </tr>
+
+            <tr>
+                <td><img class="imagens" src="\img\anne.jpg" alt="Imagem box de livro série Anne de Green Gables"/></td>
+                <td>Serie Anne de Green Gables - Com brinde exclusivo</td>
+                <td>R$105,00</td>
+                <td>3 unidades</td>
+            </tr>
+
+            <tr>
+                <td><img class="imagens" src="\img\eragon.jpg" alt="Imagem box série Ciclo A Herança"/></td>
+                <td>Cliclo A Herança - Christopher Paolini</td>
+                <td>R$197,00</td>
+                <td>1 unidade</td>
+            </tr>
+
+            <tr>
+                <td><img class="imagens" src="\img\teto.jpg" alt="Imagem livro Teto para Dois"/></td>
+                <td>Livro Teto para Dois - Beth O'leary</td>
+                <td>R$35,00</td>
+                <td>15 unidades</td>
+            </tr>
+
+        </table>
+    </main>
+    <footer>
+         <div id="final">
+            <p>Siga-nos nas redes sociais!</p>
     
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
-
-    <h2>Controle de Estoque</h2>
-
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img src="\img\acotar.jpg" alt="Imagem box de livro série A Corte de Espinhos e Rosas"/></td>
-            <td>Box Série A Corte de Espinhos e Rosas - Sarah J. Maas</td>
-            <td>R$285,00</td>
-            <td>5 unidades</td>
-        </tr>
-
-        <tr>
-            <td><img src="\img\trono-de-vidro.jpg" alt="Imagem box de livros série Trono de Vidro"/></td>
-            <td> Box Série Trono de Vidro - Sarah J. Maas </td>
-            <td> R$499,00 </td>
-            <td> 8 unidades </td>
-        </tr>
-
-        <tr>
-            <td><img src="\img\anne.jpg" alt="Imagem box de livro série Anne de Green Gables"/></td>
-            <td>Serie Anne de Green Gables - Com brinde exclusivo</td>
-            <td>R$105,00</td>
-            <td>3 unidades</td>
-        </tr>
-
-        <tr>
-            <td><img src="\img\eragon.jpg" alt="Imagem box série Ciclo A Herança"/></td>
-            <td>Cliclo A Herança - Christopher Paolini</td>
-            <td>R$197,00</td>
-            <td>1 unidade</td>
-        </tr>
-
-        <tr>
-            <td><img src="\img\teto.jpg" alt="Imagem livro Teto para Dois"/></td>
-            <td>Livro Teto para Dois - Beth O'leary</td>
-            <td>R$35,00</td>
-            <td>15 unidades</td>
-        </tr>
-
-    </table>
-
+            <div>
+                <img class="imagem-rede" src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+                <img class="imagem-rede" src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+                <img class="imagem-rede" src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+             </div>
+        </div>
+    </footer>
 </body>
 </html>
