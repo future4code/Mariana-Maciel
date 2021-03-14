@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/livros.jpg);
+    background-size: cover;
+    text-align: center;
+}
+header{
+    background-image: url(/img/rodape.jpeg);
+}
+nav li{
+    display: inline;
+    margin: 0 0 15px 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+h2{
+    background-color: wheat;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 30px;
+}
+.input{
+    background-color: wheat;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#pagamento{
+    text-transform: uppercase;
+}
+.pagamento{
+    margin: 0 0 25px 25px;
+}
+#botao{
+    padding: 0px;
+    font-size: 40px;
+}
+#final{
+    text-align: center;
+    background-color: beige;
+    margin:250px 0px 0px 0px;
+    width: 100%;
+}
+.imagem-rede{
+    height: 50px;
+    margin: 0 0 0 15px;
+}
