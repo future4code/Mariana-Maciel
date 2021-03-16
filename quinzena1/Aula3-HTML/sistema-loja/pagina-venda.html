@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="produto.css">
-    <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="pagina-venda.css">
+    <title>The Book Club</title>
 </head>
 <body>
     <header>
@@ -27,32 +27,44 @@
         </div>
     </header>
     <main>
-        <h2 id="add">Adicionar Produto</h2>
-        <form action="">
+        <h2>Compra do Cliente</h2>
+        <form>
             <div class="input">
-                <label for="link-foto">Link para foto: </label>
-                <input type="url" id="link-foto" name="link-foto">
+                <label>Produto</label>
+                <select>
+                    <option>Selecione o produto</option>
+                    <option>Box - A Cort. Esp. e R.</option>
+                    <option>Box - Trono de Vidro</option>
+                    <option>Série - Anne de Green Gables</option>
+                    <option>Ciclo A Herança</option>
+                    <option>Teto para Dois</option>
+                </select>
             </div>
-            
             <div class="input">
-                <label for="descricao">Descrição do produto: </label>
-                <input type="text" id="descricao" name="descrição">
+                <label>Quantiade</label>
+                <input type="number" id="quantidade" name="quantidade">
             </div>
-            
             <div class="input">
-                <label for="preco">Preço (em R$): </label>
-                <input type="text" id="preco" name="preço">
+                <label>Vendedor</label>
+                <select>
+                    <option>Selecione o vendedor</option>
+                    <option>Rhysinho</option>
+                    <option>Busardo</option>
+                    <option>Celaena</option>
+                    <option>Azriel</option>
+                    <option>Cassian</option>
+                </select>
             </div>
-            
             <div class="input">
-                <label for="quantidade">Quantidade disponível:</label>
-                <input type="text" name="quantidade" id="quantidade">
+                <label id="pagamento">Forma de Pagamento</label>
+                <br>
+                <label class="pagamento">Cartão</label>
+                <input type="checkbox">
+                <label class="pagamento">Dinheiro</label>
+                <input type="checkbox">
             </div>
-
             <div class="input" id="botao">
-                <button type="submit">Adicionar</button>
-            </div>
-
+                <button type="submit">Enviar</button>
         </form>
     </main>
     <footer>
@@ -65,7 +77,6 @@
                 <img class="imagem-rede" src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
             </div>
         </div>
-    </footer>    
-
+    </footer>
 </body>
 </html>
