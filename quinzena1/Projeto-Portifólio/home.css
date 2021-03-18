@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/ceu-noturno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-image: url(/img/bg.jpg);
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: start;
+    padding: 10px;
+    margin-left: 40px;
+}
+nav{
+    position: absolute;
+    top: 90px;
+    right: 200px;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 10px 30px;
+    position: relative;
+    
+}
+nav li:hover{
+    text-decoration: underline;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:none;
+}
+main{
+    text-align: center;
+    margin-top: 0;
+}
+.caixa-principal{
+    background-color: #C5C6CF;
+    margin: 0px 250px 110px;
+    padding: 100px; 
+    border: #c5c5c5;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.eu-photo{
+    height: 200px;
+    padding: 0px;
+    
+}
+h2{
+    font-size: 44px;
+
+}
+.eu{
+   padding: 70px;
+   font-size: 20px;
+   font-style: oblique;
+
+}
+.about{
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-color: #CCCCCC;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+.about:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 22px;
+    color: #C78C19;
+}
+.habilidades{
+    background-color: #C5C6CF;
+    margin: 10px 800px;
+    font-size: 40px;
+    border: #C5C6CF;
+    border-radius: 20px;
+}
+.imagem{
+    border: #C5C6CF;
+    border-radius: 20px;
+    margin: 0 0 0 15px
+}
+.pra-sumir{
+    background-color: #C5C6CF;
+    margin: 0px 863px;
+    display: none;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(/img/bg.jpg);
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+.redes{
+    margin: 15px 0 15px 15px;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.redes:hover{
+    text-decoration: underline;
+    color: #C78C19;
+}
+.p-footer{
+    margin-top: 30px;
+    font-size: 10px;
+}
