@@ -35,7 +35,7 @@ function retornaNumerosPares (array) {
 //Exercício 4
 
 function retornaMaiorNumero(array) {
-
+   // implemente sua lógica aqui
 }
 
 //Exercício 5
@@ -71,7 +71,26 @@ function checaTriangulo(a, b, c) {
 // Exercício 9
 
 function comparaDoisNumeros(num1, num2) {
-   // implemente sua lógica aqui
+   let maiorNumero
+   let menorNumero
+   if(num1 > num2){
+      maiorNumero = num1
+      menorNumero = num2
+   }else{
+      maiorNumero = num2
+      menorNumero = num1
+   }
+
+   let maiorDivisivelporMenor = num1 % num2 === 0
+   
+   let diferenca = maiorNumero - menorNumero
+
+   const objetoParaReturn {
+      maiorNumero : maiorNumero;
+      maiorDivisivelporMenor : maiorDivisivelporMenor;
+      diferenca : diferenca
+   }
+   return objetoParaReturn
 }
 
 // Exercício 10
