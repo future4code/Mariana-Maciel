@@ -47,13 +47,20 @@ function retornaQuantidadeElementos (array) {
 //Exercício 6
 
 function retornaExpressoesBooleanas() {
-   return array [false, false, true, false, false]
+   const respostaDoArray = [false, false, true, true, true]
+   return respostaDoArray
 }
 
 //Exercício 7
 
 function retornaNNumerosPares(n) {
-   // implemente sua lógica aqui
+   const arrayPares = [];
+   for (let i = 0; arrayPares.length < n; i++){
+      if(i % 2 === 0){
+         arrayPares.push(i)
+      }
+   }
+   return arrayPares
 }
 
 // Exercício 8
@@ -70,7 +77,7 @@ function checaTriangulo(a, b, c) {
 
 // Exercício 9
 
-function comparaDoisNumeros(num1, num2) {
+function comparaDoisNumeros(num1, num2){
    let maiorNumero
    let menorNumero
    if(num1 > num2){
@@ -81,13 +88,13 @@ function comparaDoisNumeros(num1, num2) {
       menorNumero = num1
    }
 
-   let maiorDivisivelporMenor = num1 % num2 === 0
+   let maiorDivisivelporMenor = maiorNumero % menorNumero === 0
    
    let diferenca = maiorNumero - menorNumero
 
-   const objetoParaReturn {
-      maiorNumero : maiorNumero;
-      maiorDivisivelporMenor : maiorDivisivelporMenor;
+   const objetoParaReturn = {
+      maiorNumero : maiorNumero,
+      maiorDivisivelporMenor : maiorDivisivelporMenor,
       diferenca : diferenca
    }
    return objetoParaReturn
