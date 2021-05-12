@@ -110,13 +110,14 @@ function comparaDoisNumeros(num1, num2){
 // Exercício 10
 
 function segundoMaiorEMenor(array) {
-   // implemente sua lógica aqui
+   // Não consegui pensar nem entender a lógica para essa questão
 }
 
 //Exercício 11
 
 function ordenaArray(array) {
-   // implemente sua lógica aqui
+
+   // Não consegui pensar nem entender a lógica para essa questão
 }
 
 // Exercício 12
@@ -134,6 +135,7 @@ function filmeFavorito() {
 // Exercício 13
 
 function imprimeChamada() {
+   // Não consegui pensar nem entender a lógica para essa questão
    
 }
 
@@ -198,7 +200,7 @@ function multiplicaArrayPor2(array) {
 // Exercício 17, letra B
 
 function multiplicaArrayPor2S(array) {
-  // implemente sua lógica aqui
+  // Não consegui pensar nem entender a lógica para essa questão
 }
 
 // Exercício 17, letra C
@@ -260,7 +262,7 @@ const consultas = [
   ]
 
 function retornaEmailConsulta(consultas) {
-  // implemente sua lógica aqui
+  // Não consegui pensar nem entender a lógica para essa questão
 }
 
 //Exercício 20
@@ -275,5 +277,5 @@ const contas = [
 ]
 
 function atualizaSaldo() {
-  // implemente sua lógica aqui
+  // Não consegui pensar nem entender a lógica para essa questão
 }
