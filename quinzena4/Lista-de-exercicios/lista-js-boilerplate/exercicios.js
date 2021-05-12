@@ -164,19 +164,28 @@ const arrayDePessoas = [
 // Exercício 16, letra A
 
 function maioresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
+   const arrayAdultos = arrayDePessoas.filter((pessoa) =>{
+      return pessoa.idade >= 18
+   })
+   return arrayAdultos
 }
 
 // Exercício 16, letra B
 
 function menoresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
+   const arrayAdolescentes = arrayDePessoas.filter((pessoa) =>{
+      return pessoa.idade < 18
+   })
+   return arrayAdolescentes
 }
 
 // Exercício 17, letra A
 
 function multiplicaArrayPor2(array) {
-   // implemente sua lógica aqui
+   let arrayMultiplicado = array.map((numero) =>{
+      return numero * 2
+   })
+   return arrayMultiplicado
 }
 
 // Exercício 17, letra B
